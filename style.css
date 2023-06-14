@@ -38,3 +38,15 @@ nav {
 .l {
     margin-left: 4%;
 }
+
+.gallery-img {
+    width: 768px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    transition: box-shadow 0.5s;
+}
+
+.gallery-img:hover {
+    box-shadow: 5px 5px black;
+}
